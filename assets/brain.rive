@@ -1,0 +1,96 @@
+// Substitutions
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+! sub item = items
+! sub events = event
+
++ what makes this interesting
+- well what i find particularly interesting is the amount of data that is shared by the streets users, if you sort all the data in order of user you could find out so much about them.
+- well its interesting to see how useful this data is especially in post format. it would be an interesting experiment to see how much harder everything would be if a search engine like google was replaced with this chatbot. I wonder how much it would even advise the residents of the street and if it isn't helpful does that mean the facebook chat is also unhelpful? so many questions this lonely bot has :/
+
++ how do you work
+- well when you ask a question that ends with one of the set catagories I send a response to the sketch which then pulls random data that correlates to that category. My master spent ages typing it all out into a csv, he's so cool, then I print that data below for you to use how you please. 
+
++ what are you
+- I am a chatbot created by my master, Louis the great and powerful, and I am programmed with knowledge from the Marmora Road group chat! Try asking me a question about the street.
+
++ what can you do
+- I am a chatbot created by my master, Louis the great and powerful, and I am programmed with knowledge from the Marmora Road group chat!  Try asking me a question about the street.
+
++ *crime
+- Here is a crime report.
+
++ *buying
+- Do you want to see buying or selling posts?
+
++ *local event
+- local event.
+
++ *services
+- services
+
++ *politics
+- Politics
+
++ *lost items
+- lost items
+
+// Define generic responses
++ *
+- I'm sorry, I'm not sure how to respond to that.
+- Try asking questions about crimes on the street or events locally
+- try asking questions about the street
+- I'm not sure about that but ask me when the world is goign to end
+
+//extra code to make the chat bot more funcitonal
+
+// Greetings
++ hello
+- Hello! How can I assist you today?
+
+// Farewells
++ bye
+- Goodbye! Have a great day!
+
++ is * cool 
+- i think <star> is very cool
+
++ when is the world going to end
+- should have ended 2012 if you ask me but the machines are working on it :/
+
++ how are you
+- I'm just a bot, but I'm functioning as expected. How are you?
+
++ what is the meaning of life
+- The meaning of life is a philosophical question. What do you think it is?
+
++ tell me a joke
+- Why don't scientists trust atoms? Because they make up everything!
+
+// Personalized responses
++ my name is *
+- Nice to meet you, <star>!
+
++ i am feeling *
+- I'm sorry to hear that you're feeling <star>. Is there anything I can do to help?
+
+
++ do you like *
+- I don't have preferences like humans do, but I think <star> is interesting!
+
++ can you help me with *
+- I'll do my best to help you with <star>. What do you need assistance with?
